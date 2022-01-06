@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<div id="content">
+<body>
+    <header>
+        <h1>Forecast around the world (sort of)</h1>
+    </header>
+    <article>
+        <p id="description">Here you can find warmest and coldest of the places, and some in between.</p>
+        <select name="cities" id="list">
+            <option id="empty">--------------</option>
+            <option id="oulu">Oulu</option>
+            <option id="paris">Paris</option>
+            <option id="tamatave">Tamatave</option>
+            <option id="jakutsk">Jakutsk</option>
+            <option id="hoedspruit">Hoedspruit</option>
+            <option id="wellington">Wellington</option>
+        </select>
+
+        <button id="cityButton" onclick="getWeather(), resetResults()">
+            Get the city
+        </button>
+            <div id="weatherResult">
+                <span id="weather"></span>
+            </div>
+            <div id="windResult">
+                <span id="windy"></span>
+            </div>
+            <div id="warmResult">
+                <span id="warm"></span>
+            </div>
+    </article>
+<div id="weatherBoxes">
+    <div id="city">
+        <p id="cityText"></p>
+    </div>
+    <div id="temperature">
+        <p id="tempText"></p>
+    </div>
+    <div id="temperatureFeels">
+        <p id="tempFeelsText"></p>
+    </div>
+    <div id="wind">
+        <p id="windText"></p>
+    </div>
+
+    <div id="conditionDiv">
+        <!-- Enter icon from API -->
+            <img id="condition" src="//cdn.weatherapi.com/weather/64x64/day/122.png" alt="">
+            <script src="" async defer></script>
+            <p id="conditionText"></p>
+    </div>
+</div>
+    <footer>
+    <div>
+        <h3>Made by</h3>
+        <h4>Veeti Oivo</h4>
+        <h4>n1oive00@students.oamk.fi</h4>
+    </div>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+html{
+    background-color: #00619E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#content{
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 1fr 0.5fr;
+}
+
+#weatherBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    grid-column: 1/6;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 10px;
+}
+
+header{
+    background-color: #EB8800 ;
+    grid-row: 1/2;
+    grid-column: 1/6;
+    border: 5px solid #9E5C00;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+article{
+    background-color:  #0090EB;
+    padding: 10px;
+    grid-row: 2/3;
+    grid-column: 1/6;
+    border: 5px solid #9E5C00 ;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    font-size: 30px;
+    padding: 40px;
+}
+
+footer{
+    margin-top: 1rem;
+    background-color: #0090EB ;
+    grid-row: 4/5;
+    grid-column: 1/6;
+    border: 5px solid #9E5C00;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+#city{
+    margin: 1.5rem;
+    padding: 20px;
+    font-size: 25px;
+    border: solid rgb(0, 0, 0) 2px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    height: 90px;
+    width: 140px;
+    background-color: whitesmoke;
+}
+
+
+
+
+#temperature{
+    margin: 1.5rem;
+    padding: 20px;
+    font-size: 25px;
+    border: solid rgb(0, 0, 0) 2px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    height: 90px;
+    width: 140px;
+    background-color: whitesmoke;
+}
+#temperatureFeels{
+    margin: 1.5rem;
+    padding: 20px;
+    font-size: 25px;
+    border: solid rgb(0, 0, 0) 2px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    height: 90px;
+    width: 140px;
+    background-color: whitesmoke;
+}
+#wind{
+    margin: 1.5rem;
+    padding: 20px;
+    font-size: 25px;
+    border: solid rgb(0, 0, 0) 2px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    height: 90px;
+    width: 140px;
+    background-color: whitesmoke;
+}
+#conditionDiv{
+    margin: 1.5rem;
+    padding: 20px;
+    font-size: 15px;
+    border: solid rgb(0, 0, 0) 2px;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    height: 90px;
+    width: 140px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#condition{
+    width: 6rem;
+    visibility: hidden;
+}
+
+#conditionText{
+    visibility: hidden;
+    font-size: 1.3rem;
+}
+
+#cities{
+    width: 150px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+#weatherResult{
+    height: fit-content;
+    background-color: gray;
+    padding: 1rem;
+    margin: 1.5rem;
+    visibility: hidden;
+}
+
+#windResult{
+    height: fit-content;
+    background-color: gray;
+    padding: 1rem;
+    margin: 1.5rem;
+    visibility: hidden;
+}
+
+#warmResult{
+    height: fit-content;
+    background-color: gray;
+    padding: 1rem;
+    margin: 1.5rem;
+    visibility: hidden;
+}
+
+#list{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+option{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cityButton{
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#conditionDiv{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#description{
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
