@@ -66,14 +66,17 @@ function getWeather() {
         }
 
         // Lisätekstit tuulelle 
-        if(tempature>10 && wind>3 && wind<4){
+        if(tempature>10 && wind>=3 && wind<=4){
             document.getElementById("windy").innerHTML = "The wind " + "(" + wind + " m/s" + ")" + " and temperature " + "(" + tempature + "°C" + ") " + "are perfect for flying a kite"
         }
-        if(wind>10){
+        if(wind>=10){
             document.getElementById("windy").innerHTML = "The wind is quite harsh, hold on to your hats."
         }
-        if(wind<10 && wind>=5){
+        if(wind<6 && wind>=3){
             document.getElementById("windy").innerHTML = "There is a light breeze"
+        }
+        if(wind<10 && wind>=7){
+            document.getElementById("windy").innerHTML = "There is moderate wind"
         }
         if(wind<=2){
             document.getElementById("windy").innerHTML = "The wind is really quiet."
