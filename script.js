@@ -72,7 +72,7 @@ function getWeather() {
         if(wind>=10){
             document.getElementById("windy").innerHTML = "The wind is quite harsh, hold on to your hats."
         }
-        if(wind<6 && wind>=3){
+        if(wind<=6 && wind>=3){
             document.getElementById("windy").innerHTML = "There is a light breeze"
         }
         if(wind<10 && wind>=7){
