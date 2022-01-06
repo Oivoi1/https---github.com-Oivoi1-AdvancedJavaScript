@@ -41,19 +41,19 @@ function getWeather() {
             document.getElementById("weather").innerHTML = "It is " + tempature + "°C, if you go outside dress really warm!"
         }
         if(tempature>=-15 && tempature<=-11 ){
-            document.getElementById("weather").innerHTML = "It is " + tempature + "°C, Go to a  "
+            document.getElementById("weather").innerHTML = "It is " + tempature + "°C, Go to a kota and grill some sausage "
         }
         if(tempature>=-10 && tempature<=-6){
             document.getElementById("weather").innerHTML = "It is " + tempature + "°C, perfect weather for winter sports!"
         }
         if(tempature>=-5 && tempature<=0 ){
-            document.getElementById("weather").innerHTML = "It is " + tempature + "°C, "
+            document.getElementById("weather").innerHTML = "It is " + tempature + "°C, Water starts to freeze"
         }
         if(tempature>0 && tempature<=5){
             document.getElementById("weather").innerHTML = "It is " + tempature + "°C, you might want to put some gloves on."
         }
         if(tempature>5 && tempature<9){
-            document.getElementById("weather").innerHTML = "It is " + tempature + "°C, "
+            document.getElementById("weather").innerHTML = "It is " + tempature + "°C, Ideal temperature for a jog"
         }
         if(tempature>=10 && tempature<=14){
             document.getElementById("weather").innerHTML = "It is " + tempature + "°C, you might need a jacket. "
